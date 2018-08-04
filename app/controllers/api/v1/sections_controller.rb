@@ -20,8 +20,7 @@ module Api
       end
 
       def create
-        @section = Section.new(section_params)
-        @section.save
+        section = Section.create(section_params)
 
         render json: section, status: :ok
       end
