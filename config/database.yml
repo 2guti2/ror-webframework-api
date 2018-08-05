@@ -21,6 +21,8 @@ test:
 
 production:
   <<: *default
-  database: rails_project_production
-  username: rails
-  password: 
+  database: d4e49d8gqhesa7
+  username: qhhxjgtmgyupin
+  password: 8846d97f2dffb28cf67c1e8e2fa18d5a5525bcd4911647a7b92f035887f1198a
+  host: ec2-54-83-62-190.compute-1.amazonaws.com
+  port: 5432
